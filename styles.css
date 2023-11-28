@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@800&family=Oswald:wght@700&family=Playfair+Display:wght@800&family=Plus+Jakarta+Sans:wght@700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,800&family=Raleway:wght@500&family=Roboto+Mono:ital,wght@1,600&family=Rubik&family=Signika:wght@600&display=swap");
+
+.contenedor {
+  background-color: rgb(234, 234, 234);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.caja1 {
+  width: 350px;
+  height: 300px;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.imagen1 {
+  background-image: url(./Saly-27.png);
+  width: 150px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+.parrafo {
+  font-family: "Regular", sans-serif;
+  text-align: center;
+  width: 250px;
+  font-size: 13px;
+  color: #000000;
+}
+.boton {
+  background-color: #ed6755;
+  padding: 13px;
+  border-radius: 0.3rem;
+  width: 150px;
+  border: none;
+  color: white;
+  font-size: 13px;
+}
+.boton:hover {
+  box-shadow: 0px 0px 10px 0px #ed6755;
+}
+.caja2 {
+  width: 350px;
+  height: 300px;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.imagen2 {
+  background-image: url(./Frame.png);
+  width: 95px;
+  height: 80px;
+  background-repeat: no-repeat;
+}
+.parrafo2 {
+  font-family: "Regular", sans-serif;
+  text-align: center;
+  width: 200px;
+  font-size: 13px;
+  color: #000000;
+}
+.boton2 {
+  background-color: #090776;
+  padding: 13px;
+  border-radius: 0.3rem;
+  width: 150px;
+  border: none;
+  color: white;
+  font-size: 13px;
+}
+.boton2:hover {
+  box-shadow: 0px 0px 5px 0px #090776;
+}
